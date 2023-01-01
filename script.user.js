@@ -3,7 +3,7 @@
 // @author       luke
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Block ads in USPS Informed Delivery (https://dirmailserv.com/2020/03/25/create-usps-informed-delivery-ads/)
+// @description  Block ads in USPS Informed Delivery
 // @author       You
 // @match        https://informeddelivery.usps.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=usps.com
