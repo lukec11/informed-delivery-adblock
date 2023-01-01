@@ -44,7 +44,7 @@ waitForKeyElements(currently_selected_day_el, () => {
     `
 
     let adsRemovedMsgEl = document.createElement('div');
-    let removedAdMsg = `${numberOfAds} ${numberOfAds > 1 ? 'advertisements were' : 'advertisement was'} removed.
+    const removedAdMsg = `${numberOfAds} ${numberOfAds > 1 ? 'advertisements were' : 'advertisement was'} removed.
         <a id="adsWereRemovedMsg" style="cursor: pointer;" onclick="${onclickFunc}">(Show)</a>`
     adsRemovedMsgEl.classList.add('noMail'); // use their CSS
     adsRemovedMsgEl.innerHTML = removedAdMsg;
@@ -64,7 +64,7 @@ waitForKeyElements(currently_selected_day_el, () => {
 }, true);
 
 
-// Depdendencies
+// Dependencies
 
 /*--- waitForKeyElements():  A utility function, for Greasemonkey scripts,
     that detects and handles AJAXed content. Forked for use without JQuery.
